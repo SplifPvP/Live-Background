@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: rgba(0,0,50,0.4);
+    height: 100vh;
+}
+
+.background-footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.logo{
+    margin: 10px;
+    height: 150px;
+}
+
+.welcome-text{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    font-stretch: extra-condensed;
+    color: #fff;
+    top: 150px;
+}
+
+.welcome-text h1{
+    padding: 20px;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+/* Bottom */
+.btn{
+    font-size: 18px;
+    font-style: normal;
+    color: #fff;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid #49a3db;
+    border-radius: 25px;
+}
+
+@media (min-aspect-radio:16/9)
+{
+    .background-footer
+    {
+        width: auto;
+        height: 100%;
+    }
+}
